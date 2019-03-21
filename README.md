@@ -18,7 +18,7 @@ CrawlPart是爬虫操作相关文件夹，PushFunction是邮件推送文件夹�
 
 简单配置过程：  
 1、Orleans的负载均衡等内容使用SqlServer配置，数据库创建脚本CreateOrleansTables_SqlServer.sql在nuget的Orleans的packages里面有添加；  
-2、开启Redis；
+2、开启Redis;    
 3、解压并复制本地检索数据库到指定位置；  
 4、复制_XapianSharp.dll、zlib1.dll、resource文件夹到指定位置（Orleans服务器执行文件和网站的bin目录下）；  
 5、修改host.xml和client.xml的内容，指定ip地址，数据库用户名和密码；  
