@@ -1,0 +1,109 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+  background: #F9F9F9;
+}
+
+#debug_data {
+  padding: 10px;
+  font-size: .5em;
+}
+
+#touch_space {
+    margin: 20px;
+    font-size: .4em;
+}
+
+#resetButton {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #0099FF;
+  border-radius: 15px;
+  border-style: none;
+  color: #FFFFFF;
+  font-size: 1em;
+  padding: 10px;
+}
+
+#newButton {
+  position: fixed;
+  top: 20px;
+  right: 90px;
+  background: #FF0000;
+  border-radius: 15px;
+  border-style: none;
+  color: #FFFFFF;
+  font-size: 1em;
+  padding: 10px;
+}
+
+#moreNodes {
+  width: 40px;
+  height: 40px;
+  background: #DDDDDD;
+  border-radius: 15px;
+  border-style: none;
+  color: #FFFFFF;
+  font-size: 1em;
+  padding: 10px;
+}
+
+#lessNodes {
+  width: 40px;
+  height: 40px;
+  background: #DDDDDD;
+  border-radius: 15px;
+  border-style: none;
+  color: #FFFFFF;
+  font-size: 1em;
+  padding: 10px;
+}
+
+#summary {
+  position: fixed;
+  top: 30%;
+  visibility: hidden;
+  width: 70%;
+  margin: 10%;
+  padding: 5%;
+  border-radius: 15px;
+  background: rgba(0,0,0,.9);
+  color: #FFFFFF;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+/* for low resolution display */
+.scale {
+    background-image: url(../img/miles_scale_100px_white.png);
+    background-size: 150px 40px;
+    height: 40px;
+    width: 150px;
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+}
+/* for high resolution display */
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .scale {
+      background: url(../img/miles_scale_100px_white@2x.png) no-repeat;
+      background-size: 150px 40px;
+      position: fixed;
+      bottom: 10px;
+      left: 20px;
+  }
+}
+
+#dist {
+  position: fixed;
+  bottom: 7px;
+  right: 20px;
+  font-size: .75em;
+}

@@ -1,0 +1,35 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/style.css?v26">
+    <title>Wow，Amazing！</title>
+</head>
+
+<body>
+    <div id="two"></div>
+    <button type="button" id="resetButton">重置</button>
+    <button type="button" id="newButton">再来一局</button>
+    <div id="debug_data">
+        <h2>20个城市的旅行商游戏</h2>
+        <h2>从红点出发，一次走完，能不能找到最优解？</h2>
+        <h3>图长: (<span id="screen_width">-1</span>, <span id="screen_height">-1</span>)</h3>
+    </div>
+
+    <div id="dist">
+        <a href="@Url.Action("Index", "Home","")">不妙，快撤</a>
+        <h3>已经走了: <span id="distance">0</span> km.</h3>
+    </div>
+
+    <script src="~/Scripts/libs/jquery.js"></script>
+    <script src="~/Scripts/libs/two.min.js"></script>
+    <script src="~/Scripts/libs/tween.js"></script>
+    <script type="text/javascript" src="~/Scripts/main1.js?v26" charset="gb2312"></script>
+</body>
+
+</html>

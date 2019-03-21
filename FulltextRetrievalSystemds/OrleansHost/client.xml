@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ClientConfiguration xmlns="urn:orleans">
+  <SystemStore SystemStoreType="SqlServer"
+               DeploymentId="测试1"
+               
+               DataConnectionString="Server=192.168.43.190;Database=testOrleans;User Id=sa;Password=pws;"/>
+  <!--<Gateway Address="localhost" Port="30000"/>-->
+  <!--<Gateway Address="localhost" Port="30001"/>-->
+</ClientConfiguration>
