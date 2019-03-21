@@ -14,7 +14,7 @@ CrawlPart是爬虫操作相关文件夹，PushFunction是邮件推送文件夹�
 
 如果要配置路径之类的东西，请注意修改web.config或者app.config的对应内容！  
 
-登录管理员账号admin@123.com，密码是Pa$$w0rd，随便玩，反正没啥权限……  
+爬虫配置需要登录管理员账号进行配置，管理员账号admin@123.com，密码是Pa$$w0rd，随便玩，反正没啥权限……  
 
 简单配置过程：  
 1、Orleans的负载均衡等内容使用SqlServer配置，数据库创建脚本CreateOrleansTables_SqlServer.sql在nuget的Orleans的packages里面有添加；  
