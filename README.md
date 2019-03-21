@@ -25,4 +25,7 @@ CrawlPart是爬虫操作相关文件夹，PushFunction是邮件推送文件夹�
 6、cmd运行Orleans服务器，OrleansHostServ.exe，等到fin指示完成；  
 7、运行网站执行查询。
 
+想要运行菜单需要安装matlab运行库2017a版本，内容就是ADNHCS-code的dll版本……没啥好玩的，口令是：“我想玩旅行商问题的游戏上上下下左右左右BABA”，having fun！  
+
+
 代码天长日久没动过了，要把它们拿出来通通风，如果有bug，这是很可能的，请见谅！  
